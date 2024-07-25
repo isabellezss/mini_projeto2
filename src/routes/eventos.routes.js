@@ -5,6 +5,6 @@ import { createEventos, getEventos } from "../controllers/eventos.controllers.js
 const eventosRouter = Router();
 
 eventosRouter.get("/all", getEventos);
-eventosRouter.post("/eventos", createEventos);
+eventosRouter.post("/add", createEventos);
 
 export { eventosRouter };

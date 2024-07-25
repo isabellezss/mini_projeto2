@@ -5,6 +5,6 @@ import { createDenuncia, getDenuncias } from "../controllers/denuncia.controller
 const denunciaRouter = Router();
 
 denunciaRouter.get("/all", getDenuncias);
-denunciaRouter.post("/denuncia", createDenuncia);
+denunciaRouter.post("/add", createDenuncia);
 
 export { denunciaRouter };

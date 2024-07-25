@@ -15,7 +15,7 @@ export const createEventos = (req, res) => {
         newEventos.descricao,
 	);
 
-  eventosventos.push(dadoFormartado)
+  eventos.push(dadoFormartado)
 
   res.status(201).send(`O Evento ${dadoFormartado.name} foi feito com sucesso!`)
 };
