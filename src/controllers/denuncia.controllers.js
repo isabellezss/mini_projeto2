@@ -15,7 +15,7 @@ export const createDenuncia = (req, res) => {
         newDenuncia.descricao,
 	);
 
-  users.push(dadoFormartado)
+  denuncias.push(dadoFormartado)
 
   res.status(201).send(`A denuncia ${dadoFormartado.name} foi feita com sucesso!`)
 };

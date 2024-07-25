@@ -15,7 +15,7 @@ export const createCentral = (req, res) => {
 		newCentral.password
 	);
 
-  users.push(dadoFormartado)
+  centrais.push(dadoFormartado)
 
   res.status(201).send(`O usuário ${dadoFormartado.name} foi criado com sucesso!`)
 };
