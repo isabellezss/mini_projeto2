@@ -11,8 +11,8 @@ export const createCentral = (req, res) => {
 
 	const dadoFormartado = new Central(
 		newCentral.name,
-		newCentral.email,
-		newCentral.password
+		newCentral.endereco,
+		newCentral.telefone,
 	);
 
   centrais.push(dadoFormartado)
